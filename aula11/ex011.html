@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Decisões em JS 2</title>
+</head>
+<body>
+  <h1>Brasileiro ou Estrangeiro?</h1>
+  <form action="" id="txtnac">
+    <p>Em qual país você nasceu?
+      <br>
+      <input type="text" id="txtnac">
+      <input type="button" value="Verificar" onclick="converter()">
+
+    </p>
+    
+     <div id="res"> <!-- Aqui vai o resultado do JS -->
+
+    </div>
+  </form>
+
+  <script>
+    function converter() {
+      var txtnac = window.document.querySelector('input#txtnac')
+      var res = window.document.querySelector('div#res')
+      var pais = (txtnac.value)
+      res.innerHTML = `<p>Sua resposta foi: ${pais}</p>`
+      if (pais == 'Brasil' && 'brasil') {
+      res.innerHTML += `<p>Você é um brasileiro(a)!</p>`
+      } else {
+        res.innerHTML += `<p>Você é um estrangeiro(a)!</p>`
+      }
+    }
+  </script>
+</body>
+</html>
