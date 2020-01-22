@@ -5,6 +5,7 @@ function carregar() {
     var hora = data.getHours() // + ":" + data.getMinutes() para adicionar os minutos
     var minutos = data.getMinutes()
     var segundos = data.getSeconds()
+
     msg.innerHTML = `Agora são: <br /> ${hora} horas ${minutos} minutos e ${segundos} segundos`
 
     if (hora >= 0 && hora < 5) {
