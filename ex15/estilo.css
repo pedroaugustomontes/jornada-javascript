@@ -1,0 +1,38 @@
+body {
+  background: rgb(107, 165, 243);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+
+input {
+  width: 100px;
+  height: 20px;
+  float: right;
+  margin-right: 310px;
+}
+
+.contar-button {
+  float: none;
+  width: 80px;
+  border: none;
+  margin: 20px 20px 10px 0;
+}
+
+section {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.342);
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
