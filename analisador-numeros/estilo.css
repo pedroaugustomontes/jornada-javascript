@@ -12,6 +12,12 @@ header {
   padding-bottom: 20px;
 }
 
+img {
+  width: 5%;
+  height: 5%;
+  top: 50px;
+}
+
 :focus {
   outline: none;
 }
@@ -99,10 +105,11 @@ a:link, a:visited  {
   color: #FFF;
   font-weight: bold;
   transition-duration: .5s;
+  text-decoration: none;
 }
 
 a:active, a:hover {
-  color: #BF3C1F;
+  color: green;
 }
 
 #erros {
@@ -111,4 +118,8 @@ a:active, a:hover {
 
 #resultado { 
   color: green;
+}
+
+#p-footer {
+  padding: 10px;
 }
