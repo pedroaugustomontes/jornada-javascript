@@ -1,28 +1,21 @@
-// 7 Tipos de Dados
-/* 
-Todos são tipos primitivos, exceto os objetos
-Primitivos são dados imutáveis
-*/ 
+// Números e Operadores
+var soma = 100 + 50;  //150
+var subtracao = 100 - 50;  //50
+var multiplicacao = 100 * 2;  //200
+var divisao = 100 / 2;  //50
+var expoente = 2 ** 4;  //16
+var modulo = 14 % 5;  //4
 
-// String: texto
-nome = 'Pedro Augusto Montes';
-console.log(nome);
 
-// Number: números inteiros (positivos ou negativos)
-idade = 25;
-console.log(idade);
+//Operadores Aritméticos (STRINGS)
+var somaString = '100' + 50;  //10050
+var subtracaoString = '100' - 50;  //50
+var multiplicacaoString = '100' * '2';  //200
+var divisaoString = 'Comprei 10' / 2; //NaN (not a number)
+/* É possível verificar se uma variável é NaN ou não
+com a função isNaN() */
 
-// boolean: true, false (verdadeiro ou falso)
-possuiFaculdade = true;
-console.log(ligado);
+//A Ordem Importa
+console.log('multiplicação > divisão > soma > subtração')
 
-var time;  // Undefined: indefinido
-
-var comida = null;  // Null: nulo
-
-var simbolo = Symbol();  // Symbol
-
-var novoObjeto = {};  // Object
-
-// Recurso do JavasCript para saber o tipo de dado
-console.log(typeof (idade));
+//Operadores Aritméticos Unários
