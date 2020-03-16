@@ -9,10 +9,8 @@ body {
   justify-content: space-around;
 }
 header {
-  padding-bottom: 20px;
+  padding: 100px 0;
 }
-
-
 
 :focus {
   outline: none;
