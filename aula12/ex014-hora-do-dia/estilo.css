@@ -1,15 +1,29 @@
-body {
-  background: #e72e09;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+* {
+  padding: 0;
+  box-sizing: border-box;
 }
-header {
-  color: white;
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+
+header {
+  margin-top: 50px;
+}
+
+:focus {
+  outline: none;
 }
 
 section {
-  background: white;
+  background: rgba(255, 255, 255, .6);
   padding: 10px;
   border-radius: 10px;
   width: 500px;
@@ -18,14 +32,57 @@ section {
 }
 
 img {
-  padding: 10px 0;
+  width: 100%;
 }
 
-.text-section p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+img#imagem {
+  padding: 0 10px;
+}
+
+.bg {
+  background-size: cover;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+.bg-dawn {
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url('./img/dawn.jpg');
+}
+
+.bg-manha {
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url('./img/manha.jpg');
+}
+
+.bg-tarde {
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url('./img/tarde.jpg');
+}
+
+.bg-noite {
+  background-image: linear-gradient(to right bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url('./img/noite.jpg');
+}
+
+.text-section {
+  color: black;
+}
+
+a:link, a:visited  {
+  color: #FFF;
+  font-weight: bold;
+  transition-duration: .5s;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  color: aquamarine;
+}
+
+#transform {
+  transform: translate3d(0,15px,0);
+  width: 30px;
 }
 
 footer {
-  color: white;
-  text-align: center;
+  margin-bottom: 100px;
 }

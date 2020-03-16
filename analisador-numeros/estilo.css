@@ -87,14 +87,6 @@ button {
   transition-duration: .3s;
 }
 
-button:hover {
-  background-color: #076b00;
-}
-
-footer {
-  padding-bottom: 20px;
-}
-
 a:link, a:visited  {
   color: #FFF;
   font-weight: bold;
