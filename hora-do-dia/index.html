@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hora do Dia</title>
+    <!-- Link Style CSS -->
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="relogio.css" />
+  </head>
+  <body onload="carregar()">
+
+    <header>
+      <h1>Hora do Dia</h1>
+    </header>
+    
+    <section class="text-section">
+      <div class="center">
+        <p id="periodo">Esta dia, tarde ou noite?</p>
+        <p id="msg">Aqui vai aparecer a mensagem modificada pelo JS... </p>
+      </div>
+      <div class="clock">
+        <div class="hour">
+          <div class="hr" id="hr"></div>
+        </div>
+        <div class="min">
+          <div class="mn" id="mn"></div>
+        </div>
+        <div class="sec">
+          <div class="sc" id="sc"></div>
+        </div>
+      </div>
+     
+
+      <div id="foto">
+        <img id="imagem" src="" alt="Foto de um periodo do dia">
+      </div>
+
+    </section>
+
+    <footer>
+      <p id="p-footer">2020 &copy; Desenvolvido por
+        <a href="https://github.com/MrPMontes/" target="_blank">
+          <img src="./img/github-logo.png" id="transform">
+        Pedro Augusto Montes
+        </a>
+      </p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
