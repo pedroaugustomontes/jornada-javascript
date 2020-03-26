@@ -42,6 +42,7 @@ img#imagem {
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
+  background-blend-mode: lighten;
 }
 
 .bg-dawn {
