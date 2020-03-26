@@ -29,7 +29,7 @@ function carregar() {
     var minutos = data.getMinutes()
     var segundos = data.getSeconds()
 
-    msg.innerHTML = `Agora são ${hora} horas ${minutos} minutos e ${segundos} segundos`
+    msg.innerHTML = `<br>Agora são <br>${hora} horas ${minutos} minutos <br>${segundos} segundos`
 
     if (hora >= 0 && hora < 5) {
         document.body.className = 'bg bg-dawn'
